@@ -29,3 +29,7 @@
   <a href="https://www.linkedin.com/in/jos%C3%A9-alisson-paz-lopes-7a432a315/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
   
 </div>
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/AlissonPazLopes/AlissonPazLopes/output/github-snake-dark.svg" alt="Snake animation" />
+</div>
