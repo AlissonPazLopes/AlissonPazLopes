@@ -1,6 +1,6 @@
 ## Oi eu sou José Alisson, Estudante de Ciência da Computação!
 
-## 📊 Minhas Estatísticas no GitHub
+ 📊 Minhas Estatísticas no GitHub
 
 <div align="center">
   <a href="https://github.com/AlissonPazLopes">
