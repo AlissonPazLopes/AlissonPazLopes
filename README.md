@@ -13,7 +13,6 @@
 - 🎓 Estudante de **Ciência da Computação** na Universidade Federal do Ceará (**UFC** - Campus Russas).
 - ☕ Foco principal no ecossistema **Back-end com Java e Spring Boot**, construindo APIs RESTful com boas práticas, testes automatizados e bancos relacionais.
 - 🤖 Entusiasta de **Automação com Python**, **Machine Learning** e integração de hardware/IoT (**ESP32**).
-- ⚡ Atualmente desenvolvendo a **[TechRepair API](https://github.com/AlissonPazLopes/techrepair-api)** — um sistema completo de gestão de assistência técnica e ordens de serviço.
 
 <br>
 
