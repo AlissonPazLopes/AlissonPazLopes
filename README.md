@@ -29,7 +29,7 @@
 
 <div align="center">
   <a href="https://github.com/AlissonPazLopes">
-    <img height="165" src="https://streak-stats.demolab.com?user=AlissonPazLopes&theme=dracula&hide_border=true&locale=pt_BR" alt="GitHub Streak" />
+    <img height="165" src="https://streak-stats.demolab.com?user=AlissonPazLopes&theme=dracula&hide_border=true&locale=pt_BR&timezone=America/Fortaleza&cache_seconds=1800" alt="GitHub Streak" />
   </a>
 </div>
 
