@@ -1,83 +1,119 @@
-<!-- BANNER SUPERIOR COM GRADIENTE E TEXTO INTEGRADO -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:BD93F9,100:8BE9FD&height=180&section=header&text=Jos%C3%A9%20Alisson&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Back-end%20Developer%20%7C%20Computer%20Science%20%40%20UFC&descAlignY=55&descSize=18"/>
-
 <div align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1000&color=8BE9FD&center=true&vCenter=true&width=900&lines=Hello%2C+World!+%F0%9F%8C%8E;Desenvolvedor+Back-end+focado+em+Java+%26+Spring+Boot;Criando+APIs+RESTful%2C+Automa%C3%A7%C3%B5es+em+Python+e+Sistemas+IoT" alt="Typing SVG" />
-  </a>
+  <img width="100%" src="./assets/banner-hero.svg" alt="Banner animado de José Alisson com mascote gato frajola" />
 </div>
 
 <br>
 
 ### 👨‍💻 Sobre Mim
-- 🎓 Estudante de **Ciência da Computação** na Universidade Federal do Ceará (**UFC** - Campus Russas).
-- ☕ Foco principal no ecossistema **Back-end com Java e Spring Boot**, construindo APIs RESTful com boas práticas, testes automatizados e bancos relacionais.
-- 🤖 Entusiasta de **Automação com Python**, **Machine Learning** e integração de hardware/IoT (**ESP32**).
 
-<br>
+- 🎓 Graduando em **Ciência da Computação** na **Universidade Federal do Ceará (UFC — Campus Russas)**.
+- ☕ Foco principal em **Back-end com Java 21 & Spring Boot 3**, projetando APIs RESTful com **controle de concorrência (`@Version`)**, cache distribuído com **Redis**, migrations com **Flyway**, **PostgreSQL**, **Docker** e testes automatizados (**JUnit 5**).
+- 🤖 Projetos complementares em **Python / FastAPI** aplicados a **Machine Learning e Pesquisa Operacional**, além de sistemas embarcados e **IoT** com **ESP32** e **C/C++**.
 
-<!-- CARDS DE ESTATÍSTICAS + SEQUÊNCIA DE COMMITS -->
+---
+
+### 🚀 Projetos em Destaque
+
+<div align="center">
+  <table>
+    <tr>
+      <td width="50%" align="center">
+        <a href="https://github.com/AlissonPazLopes/nexushub-api">
+          <img width="100%" src="https://github-readme-stats-mocha-three-67.vercel.app/api/pin/?username=AlissonPazLopes&repo=nexushub-api&bg_color=0d0a14&title_color=c084fc&text_color=e2dff0&icon_color=a855f7&border_color=2d1f47&border_radius=12" alt="NexusHub API" />
+        </a>
+      </td>
+      <td width="50%" align="center">
+        <a href="https://github.com/AlissonPazLopes/edgepulse-api">
+          <img width="100%" src="https://github-readme-stats-mocha-three-67.vercel.app/api/pin/?username=AlissonPazLopes&repo=edgepulse-api&bg_color=0d0a14&title_color=c084fc&text_color=e2dff0&icon_color=a855f7&border_color=2d1f47&border_radius=12" alt="EdgePulse API" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td width="50%" align="center">
+        <a href="https://github.com/AlissonPazLopes/viabus-api">
+          <img width="100%" src="https://github-readme-stats-mocha-three-67.vercel.app/api/pin/?username=AlissonPazLopes&repo=viabus-api&bg_color=0d0a14&title_color=c084fc&text_color=e2dff0&icon_color=a855f7&border_color=2d1f47&border_radius=12" alt="ViaBus API" />
+        </a>
+      </td>
+      <td width="50%" align="center">
+        <a href="https://github.com/AlissonPazLopes/smartroute-optiml-api">
+          <img width="100%" src="https://github-readme-stats-mocha-three-67.vercel.app/api/pin/?username=AlissonPazLopes&repo=smartroute-optiml-api&bg_color=0d0a14&title_color=c084fc&text_color=e2dff0&icon_color=a855f7&border_color=2d1f47&border_radius=12" alt="SmartRoute OptiML API" />
+        </a>
+      </td>
+    </tr>
+  </table>
+</div>
+
+| Projeto | Problema de Engenharia & Stack |
+| :--- | :--- |
+| [**`nexushub-api`**](https://github.com/AlissonPazLopes/nexushub-api) | API SaaS B2B com credenciamento em níveis, resgate de benefícios concorrente (`@Version`), lotes CSV com checksum `SHA-256` e PostgreSQL · `Java 21` `Spring Boot 3` `Flyway` `Docker` `JUnit 5` |
+| [**`edgepulse-api`**](https://github.com/AlissonPazLopes/edgepulse-api) | Plataforma de telemetria IoT/ESP32 com watchdog de heartbeat, atualização OTA com rollback e métricas de confiabilidade (`MTBF`/`MTTR`) · `Java 21` `Spring Boot 3` `PostgreSQL` `Redis` |
+| [**`viabus-api`**](https://github.com/AlissonPazLopes/viabus-api) | Sistema de reservas intermunicipais e cotas sociais ID Jovem com Optimistic Locking contra *overbooking* e expiração automática · `Java 21` `Spring Boot 3` `PostgreSQL` `Redis` |
+| [**`smartroute-optiml-api`**](https://github.com/AlissonPazLopes/smartroute-optiml-api) | Previsão de demanda com Scikit-Learn e roteamento de coleta seletiva via Programação Linear (PuLP) e meta-heurística VNS · `Python` `FastAPI` `Scikit-Learn` `Pytest` |
+
+---
+
+### 🛠️ Stack Tecnológica
+
+<div align="center">
+  <b>Back-end, Dados &amp; Infraestrutura</b><br><br>
+  <img src="https://skillicons.dev/icons?i=java,spring,postgres,redis,mysql,docker,maven,githubactions&theme=dark" alt="Back-end, Dados e Infraestrutura" />
+  <br><br>
+  <b>IA, Otimização &amp; Embarcados</b><br><br>
+  <img src="https://skillicons.dev/icons?i=python,fastapi,c,cpp,arduino,linux&theme=dark" alt="IA, Otimização e Embarcados" />
+  <br><br>
+  <b>Base Web &amp; Ferramentas</b><br><br>
+  <img src="https://skillicons.dev/icons?i=ts,react,html,css,git,postman,idea,vscode&theme=dark" alt="Base Web e Ferramentas" />
+</div>
+
+---
+
+### 📊 Métricas &amp; Consistência
+
 <div align="center">
   <a href="https://github.com/AlissonPazLopes">
-    <img height="165" src="https://github-readme-stats-mocha-three-67.vercel.app/api?username=AlissonPazLopes&show_icons=true&theme=dracula&include_all_commits=true&count_private=true&hide_border=true"/>
+    <img height="165" src="https://github-readme-stats-mocha-three-67.vercel.app/api?username=AlissonPazLopes&show_icons=true&include_all_commits=true&count_private=true&bg_color=0d0a14&title_color=c084fc&text_color=e2dff0&icon_color=a855f7&border_color=2d1f47&border_radius=12" alt="Estatísticas do GitHub" />
   </a>
   &nbsp;
   <a href="https://github.com/AlissonPazLopes">
-    <img height="165" src="https://github-readme-stats-mocha-three-67.vercel.app/api/top-langs/?username=AlissonPazLopes&layout=compact&langs_count=6&theme=dracula&hide_border=true"/>
+    <img height="165" src="https://github-readme-stats-mocha-three-67.vercel.app/api/top-langs/?username=AlissonPazLopes&layout=compact&langs_count=6&bg_color=0d0a14&title_color=c084fc&text_color=e2dff0&border_color=2d1f47&border_radius=12" alt="Linguagens mais usadas" />
   </a>
 </div>
+
+<br>
 
 <div align="center">
   <a href="https://github.com/AlissonPazLopes">
-    <img height="165" src="https://streak-stats.demolab.com?user=AlissonPazLopes&theme=dracula&hide_border=true&locale=pt_BR&timezone=America/Fortaleza&cache_seconds=1800" alt="GitHub Streak" />
+    <img height="165" src="https://streak-stats.demolab.com?user=AlissonPazLopes&locale=pt_BR&timezone=America/Fortaleza&background=0d0a14&border=2d1f47&stroke=2d1f47&ring=a855f7&fire=c084fc&currStreakNum=f5f3ff&sideNums=f5f3ff&currStreakLabel=c084fc&sideLabels=a59bb8&dates=8b7fa3&border_radius=12" alt="Sequência de contribuições no GitHub" />
   </a>
 </div>
 
 <br>
 
-<!-- PROJETO EM DESTAQUE -->
+<!-- Dica futura: na GitHub Action do Snake (.github/workflows), também é possível customizar color_snake e color_dots para tons de roxo (#a855f7 / #c084fc). -->
 <div align="center">
-  <h3>🚀 Projeto em Destaque</h3>
-  <a href="https://github.com/AlissonPazLopes/techrepair-api">
-    <img src="https://github-readme-stats-mocha-three-67.vercel.app/api/pin/?username=AlissonPazLopes&repo=techrepair-api&theme=dracula&hide_border=true" alt="TechRepair API" />
-  </a>
+  <img src="https://raw.githubusercontent.com/AlissonPazLopes/AlissonPazLopes/output/github-snake-dark.svg" alt="Animação da cobrinha no gráfico de contribuições" />
 </div>
 
-<br>
+---
 
-<!-- TECNOLOGIAS COM SKILL ICONS (100% VISÍVEIS NO TEMA ESCURO) -->
+### 📫 Contato
+
 <div align="center">
-  <h3>🛠️ Tecnologias e Ferramentas</h3>
-  <br>
-  <b>Back-end, Linguagens & Banco de Dados</b><br><br>
-  <img src="https://skillicons.dev/icons?i=java,spring,python,cs,postgres,mysql&theme=dark" alt="Back-end Stack" />
-  <br><br>
-  <b>Front-end</b><br><br>
-  <img src="https://skillicons.dev/icons?i=html,css,react,ts&theme=dark" alt="Front-end Stack" />
-  <br><br>
-  <b>DevOps, Testes & IDEs</b><br><br>
-  <img src="https://skillicons.dev/icons?i=docker,git,github,postman,idea,vscode&theme=dark" alt="Tools Stack" />
-</div>
-
-<br>
-
-<!-- ANIMAÇÃO DA COBRINHA -->
-<div align="center">
-  <img src="https://raw.githubusercontent.com/AlissonPazLopes/AlissonPazLopes/output/github-snake-dark.svg" alt="Snake animation" />
-</div>
-
-<br>
-
-<!-- CONTATO -->
-<div align="center">
-  <samp><b>📫 Vamos nos conectar!</b></samp><br><br>
   <a href="https://www.linkedin.com/in/jos%C3%A9-alisson-paz-lopes-7a432a315/" target="_blank">
-    <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white">
+    <img src="https://img.shields.io/badge/LinkedIn-140f21?style=for-the-badge&logo=linkedin&logoColor=c084fc" alt="LinkedIn" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="mailto:alissonlino31@gmail.com">
+    <img src="https://img.shields.io/badge/E--mail-140f21?style=for-the-badge&logo=gmail&logoColor=c084fc" alt="E-mail" />
   </a>
   &nbsp;&nbsp;
   <a href="https://www.instagram.com/alissonx.yz/" target="_blank">
-    <img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white">
+    <img src="https://img.shields.io/badge/Instagram-140f21?style=for-the-badge&logo=instagram&logoColor=c084fc" alt="Instagram" />
   </a>
 </div>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:8BE9FD,100:BD93F9&height=100&section=footer"/>
+<br>
+
+<div align="center">
+  <img width="100%" src="./assets/footer-wave.svg" alt="Rodapé Obsidian Violet" />
+</div>

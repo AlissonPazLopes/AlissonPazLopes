@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 68" width="900" height="68" role="img" aria-label="Rodapé Obsidian Violet - José Alisson">
+  <title>Rodapé Obsidian Violet</title>
+  <style>
+    :root {
+      --bg-void: #07050c;
+      --bg-canvas: #0d0a14;
+      --bg-surface: #140f21;
+      --border-subtle: #2d1f47;
+      --border-accent: #6d28d9;
+      --text-muted: #8e82a8;
+      --accent-primary: #a855f7;
+      --accent-bright: #c084fc;
+    }
+
+    .font-mono {
+      font-family: "JetBrains Mono", "Cascadia Code", "Fira Code", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 10.5px;
+      font-weight: 600;
+      letter-spacing: 2px;
+      fill: var(--text-muted);
+    }
+
+    @keyframes pulseGlow {
+      0%, 100% { opacity: 0.45; }
+      50% { opacity: 0.95; }
+    }
+
+    .center-glow {
+      animation: pulseGlow 3.6s ease-in-out infinite;
+    }
+  </style>
+
+  <defs>
+    <clipPath id="footerClip">
+      <rect x="1" y="1" width="898" height="66" rx="14"/>
+    </clipPath>
+
+    <linearGradient id="waveFill" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color: var(--bg-void)"/>
+      <stop offset="50%" style="stop-color: var(--bg-surface)"/>
+      <stop offset="100%" style="stop-color: var(--bg-void)"/>
+    </linearGradient>
+
+    <linearGradient id="accentLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color: var(--border-subtle); stop-opacity: 0"/>
+      <stop offset="25%" style="stop-color: var(--border-accent); stop-opacity: 0.8"/>
+      <stop offset="50%" style="stop-color: var(--accent-bright); stop-opacity: 1"/>
+      <stop offset="75%" style="stop-color: var(--border-accent); stop-opacity: 0.8"/>
+      <stop offset="100%" style="stop-color: var(--border-subtle); stop-opacity: 0"/>
+    </linearGradient>
+
+    <radialGradient id="footerGlow" cx="50%" cy="100%" r="55%">
+      <stop offset="0%" style="stop-color: var(--accent-primary); stop-opacity: 0.22"/>
+      <stop offset="100%" style="stop-color: var(--bg-canvas); stop-opacity: 0"/>
+    </radialGradient>
+  </defs>
+
+  <g clip-path="url(#footerClip)">
+    <rect x="0" y="0" width="900" height="68" fill="var(--bg-canvas)"/>
+    <path d="M 0 28 Q 225 6 450 26 T 900 22 L 900 68 L 0 68 Z" fill="url(#waveFill)"/>
+    <rect x="0" y="0" width="900" height="68" fill="url(#footerGlow)" class="center-glow"/>
+    <path d="M 0 28 Q 225 6 450 26 T 900 22" fill="none" stroke="url(#accentLine)" stroke-width="1.6"/>
+    <circle cx="450" cy="26" r="2.6" fill="var(--accent-bright)" class="center-glow"/>
+    <text x="450" y="48" text-anchor="middle" class="font-mono">ALISSON OS  ·  JAVA 21  ·  PYTHON  ·  IOT</text>
+  </g>
+
+  <rect x="1" y="1" width="898" height="66" rx="14" fill="none" stroke="var(--border-subtle)" stroke-width="1.2"/>
+</svg>
