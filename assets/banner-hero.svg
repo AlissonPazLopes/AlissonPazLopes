@@ -269,16 +269,16 @@
     <circle cx="64" cy="24" r="5" fill="var(--border-accent)"/>
 
     <!-- Título OS -->
-    <text x="450" y="28" text-anchor="middle" class="font-mono os-title">ALISSON OS  /  PORTFÓLIO BACK-END</text>
+    <text x="450" y="28" text-anchor="middle" class="font-mono os-title">ALISSON PAZ  /  DEV BACK-END</text>
 
     <!-- Status ONLINE -->
     <circle cx="816" cy="24" r="3.5" fill="var(--accent-bright)" class="status-dot"/>
     <text x="827" y="27.5" class="font-mono os-status">ONLINE</text>
 
     <!-- COLUNA ESQUERDA -->
-    <text x="44" y="83" class="font-mono eyebrow">OBSIDIAN VIOLET // BACK-END STUDIO</text>
+    <text x="44" y="83" class="font-mono eyebrow">BACK-END STUDIO</text>
 
-    <text x="44" y="128" class="font-sans hero-title">olá, eu sou o Alisson!</text>
+    <text x="44" y="128" class="font-sans hero-title">Olá, eu sou o Alisson!</text>
     <!-- Estrela 4 pontas ao lado do título -->
     <path d="M 454 103 L 456.8 111.2 L 465 114 L 456.8 116.8 L 454 125 L 451.2 116.8 L 443 114 L 451.2 111.2 Z"
           fill="var(--accent-bright)" class="star-a"/>
