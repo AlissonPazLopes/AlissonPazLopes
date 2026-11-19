@@ -4,6 +4,11 @@ on:
   schedule:
     - cron: "0 0 * * *"
   workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/snake.yml"
 
 jobs:
   build:
@@ -14,7 +19,7 @@ jobs:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark
+            dist/github-snake-dark.svg?palette=github-dark&color_snake=#c084fc&color_dots=#140f21,#2e1065,#581c87,#7e22ce,#a855f7
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
