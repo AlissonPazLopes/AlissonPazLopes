@@ -61,7 +61,7 @@
     <rect x="0" y="0" width="900" height="68" fill="url(#footerGlow)" class="center-glow"/>
     <path d="M 0 28 Q 225 6 450 26 T 900 22" fill="none" stroke="url(#accentLine)" stroke-width="1.6"/>
     <circle cx="450" cy="26" r="2.6" fill="var(--accent-bright)" class="center-glow"/>
-    <text x="450" y="48" text-anchor="middle" class="font-mono">ALISSON OS  ·  JAVA 21  ·  PYTHON  ·  IOT</text>
+    <text x="450" y="48" text-anchor="middle" class="font-mono">ALISSON PAZ ·  JAVA 21  ·  PYTHON  ·  IOT</text>
   </g>
 
   <rect x="1" y="1" width="898" height="66" rx="14" fill="none" stroke="var(--border-subtle)" stroke-width="1.2"/>
