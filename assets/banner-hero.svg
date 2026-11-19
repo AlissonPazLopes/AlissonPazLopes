@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 360" width="900" height="360" role="img" aria-label="Banner animado de José Alisson - Back-end Developer com mascote gato frajola pixel-art">
-  <title>Alisson OS — Portfólio Back-end (Obsidian Violet)</title>
+  <title>Alisson Paz — Dev Back-end)</title>
   <style>
     :root {
       --bg-void: #07050c;
@@ -347,7 +347,7 @@
     </g>
 
     <!-- Rodapé técnico à esquerda -->
-    <text x="44" y="336" class="font-mono footer-tags">BACK-END JAVA  ·  SISTEMAS DISTRIBUÍDOS  ·  PYTHON &amp; ML  ·  IOT</text>
+    <text x="44" y="336" class="font-mono footer-tags">BACK-END JAVA  ·  PYTHON &amp; ML  ·  IOT</text>
 
     <!-- COLUNA DIREITA: HALO + ESTRELINHAS + GATO FRAJOLA PIXEL-ART -->
     <circle cx="720" cy="184" r="138" fill="url(#catAmbientGlow)"/>
@@ -590,7 +590,7 @@
     </g>
     </g>
 
-    <text x="720" y="318" text-anchor="middle" class="font-mono companion-label">COMPANHEIRO / FRAJOLA.EXE</text>
+    <text x="720" y="318" text-anchor="middle" class="font-mono companion-label">FRAJOLA.EXE</text>
   </g>
 
   <!-- Borda externa do card -->
